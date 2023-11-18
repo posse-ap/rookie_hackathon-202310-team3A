@@ -340,7 +340,7 @@
 }
 
 .tab-body{
-    background-color: #e5f2ff;
+    background-color: #e5f2ffgi;
 }
 
 .tab-body-item{
@@ -409,6 +409,20 @@ span{
     height: 200px;
     object-fit: cover;
 }
+
+.zoom-box {
+    display: inline-block;
+    overflow: hidden;
+}
+.special_img.zoom img{
+    display: block;
+    transition-duration: .5s;
+}
+.special_img.zoom:hover img{
+    margin-bottom: 5px;
+    transform: scale(1.05);
+}
+
 .event_title{
     text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: 25px;
