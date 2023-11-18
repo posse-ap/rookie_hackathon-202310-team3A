@@ -29,6 +29,7 @@
 
 .header-navLink {
     text-decoration: rgb(53, 218, 255) underline 7px;
+    text-decoration-skip-ink: none;
     font-weight: bold;
     line-height: 1.8;
     letter-spacing: .1em;
@@ -40,6 +41,9 @@
     color: #18336b;
 }
 
+.header-navLink:hover {
+    text-decoration: #18336b underline 7px;
+}
 .header-snsList {
     display: flex; /* 横並びにするためにflexを指定 */
     transform:translate(-20px,12px);
@@ -50,10 +54,13 @@
     
 }
 .header-snsImg img{
-    max-width: 40px;
-    min-width: 40px;
+    max-width: 45px;
+    min-width: 45px;
 }
 
+.header-snsImg:hover .header-navItem{
+    margin-right: -100px;
+}
 .header-line {
     border: solid 2px #66b2ff;
     border-radius: 20px;
@@ -141,6 +148,7 @@
  left: 50%;
  transform: translate(-50%,-50%);
  background-color:rgba(102,178,255,0.2);
+ font-family: 'Dancing Script', cursive;
 }
 
 .mainvisual-leadMain {
@@ -149,6 +157,11 @@
     text-align: center;
 }
 
+.mainvisual-leadMainPOSSE {
+    color:#18336b;
+    text-decoration: none;
+    font-size: 170px;
+}
 .mainvisual-leadSub {
     font-size: 50px;
     text-align: center;
@@ -209,6 +222,7 @@
     margin-top: 80px;
     font-size: 30px;
     font: bold;
+    font-family: 'Dancing Script', cursive;
 }
 .picture{
     margin:0;
@@ -236,6 +250,7 @@
 }
 .title{
     text-decoration: rgb(0, 208, 255) underline 5px;
+    text-decoration-skip-ink: none;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
