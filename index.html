@@ -68,7 +68,7 @@
         </div>
         <div class="mainvisual-lead">
             <p class="mainvisual-leadMain gradation"><span class="mainvisual-leadMainPOSSE">POSSE</span>SSION</p>
-            <p class="mainvisual-leadSub">知と友をPOSSE③で財産に</p>
+            <p class="mainvisual-leadSub">POSSE③で知と友を財産に</p>
         </div>
     </section>
     <main>
@@ -317,13 +317,13 @@
         <!--お悩み相談-->
         <section class="form">
             <div class="title">
-                <h2>お悩み相談</h2>
+                <h2 class="title">お悩み相談</h2>
             </div>
             <div class="content">
                 <form id="questionForm">
-                    <label for="question-content">お悩み：</label>
-                    <textarea type="text" id="question-content" required></textarea>
-                    <button type="button" onclick="submitQuestion()">相談する</button>
+                    <label for="question-content" class="question-formTitle">お悩み：</label>
+                    <textarea type="text" id="question-content" class="question-form"required placeholder="質問を入力してください"></textarea>
+                    <button type="button" onclick="submitQuestion()" class="question-button">相談する</button>
                 </form>
                 <ul id="questionList"></ul>
             </div>
