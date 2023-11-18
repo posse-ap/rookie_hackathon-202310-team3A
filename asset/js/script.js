@@ -1,7 +1,7 @@
 // Daily by よっしー
 
 const tabHeader = document.querySelectorAll('.tab-header-item');
-const tabBody = document.querySelectorAll('tab-body-item');
+const tabBody = document.querySelectorAll('.tab-body-item');
 
 document.addEventListener('DOMContentLoaded', function(){
     for(let i = 0; i < tabHeader.length; i++){
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     function tabSwitch(){
-        document.querySelectorAll('active')[0].classList.remove('active');
+        document.querySelectorAll('.active')[0].classList.remove('active');
         this.classList.add('active');
         document.querySelectorAll('.show')[0].classList.remove('show');
         const aryTabs = Array.prototype.slice.call(tabHeader);
