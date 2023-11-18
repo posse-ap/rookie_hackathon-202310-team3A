@@ -297,13 +297,13 @@
 }
 
 .tab-header-item:hover{
-    background: yellow;
+    background: #FCF16E;
     transform: scale(1.1);
     border-radius: 30px;
 }
 
 .tab-header-item.active{
-    background-color: aquamarine;
+    background-color: pink;
 }
 
 .tab-body{
