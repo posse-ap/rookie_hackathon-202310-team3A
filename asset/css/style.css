@@ -47,6 +47,10 @@
     margin-top: 10px;
 }
 
+.header-snsgitImg {
+    max-width: 40px;
+    min-width: 40px;
+}
 /* Daily by よっしー */
 .tab-header{
     list-style-type: none;
