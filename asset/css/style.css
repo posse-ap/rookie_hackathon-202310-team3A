@@ -131,7 +131,7 @@
 }
 
 /*slide by さくら*/
-.slide_title{
+.title{
     text-align: center;
     margin-top: 80px;
     font-size: 30px;
@@ -158,14 +158,17 @@
 
 /* Activity by なつき */
 .Activity{
-    margin: 250px 250px;
+    margin: 200px 250px;
 }
 .title{
+    border-bottom: 4px solid;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
 }
-.features{}
+.features{
+    margin-top: 50px;
+}
 .feature{
     display: flex;
     margin-bottom: -100px;
@@ -237,7 +240,6 @@
 }
 
 /* Daily by よっしー */
-
 .title{
     font-size: 75px;
     font-weight: bold;
