@@ -3,13 +3,43 @@
 const header = document.getElementById("js-header");
 const mainVisual = document.getElementById("js-mainvisual");
 
-window.addEventListener("scroll" , function(){
-    if(window.scrollY > mainVisual.clientHeight -header.clientHeight){
-        header.classList.remove("is-transparent");
-    } else {
-        header.classList.add("is-transparent");
-    }
+function PageTopCheck() {
+  var winScrollTop = $(window).scrollTop();
+  var secondTop = $("#activity").offset().top - 150; // 修正したセレクタ
+
+  if (winScrollTop >= secondTop) {
+      $('.js-scroll').removeClass('scroll-view');
+      $('.js-pagetop').addClass('scroll-view');
+  } else {
+      $('.js-scroll').addClass('scroll-view');
+      $('.js-pagetop').removeClass('scroll-view');
+  }
+}
+
+// クリックした際の動き
+$('.scroll-top a').click(function () {
+  var elmHash = $(this).attr('href');
+
+  if (elmHash == "#activity") {
+      var pos = $(elmHash).offset().top;
+      $('body,html').animate({ scrollTop: pos }, pos);
+  } else {
+      $('body,html').animate({ scrollTop: 0 }, 500);
+  }
+
+  return false;
 });
+
+// 画面をスクロールしたら動かしたい場合の記述
+$(window).scroll(function () {
+  PageTopCheck();
+});
+
+// ページが読み込まれたらすぐに動かしたい場合の記述
+$(window).on('load', function () {
+  PageTopCheck();
+});
+
 
 
 new Splide('#js-mainvisual' , {
@@ -71,7 +101,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 $(document).ready(function() {
-    // アコーディオンをクリックした時の動作
     $('.qa-title').on('click', function() {
       var findElm = $(this).next(".answer");
       $(findElm).slideToggle();
@@ -83,8 +112,7 @@ $(document).ready(function() {
       }
     });
   
-    // ページが読み込まれた際の初期化
-    $('.qa li:first-of-type section').addClass("open"); // 最初のliにあるsectionにopenクラスを追加
+    $('.qa li:first-of-type section').addClass("open");
   
     $(".open").each(function(index, element) {
       var Title = $(element).children('.qa-title');
@@ -92,8 +120,6 @@ $(document).ready(function() {
       var Box = $(element).children('.answer');
       $(Box).slideDown(500);
     });
-  
-    // もし最初に開かれる要素がない場合は、下記のように追加できます
-    // $('.accordion-area li:first-of-type section .title').click();
+
   });
   
