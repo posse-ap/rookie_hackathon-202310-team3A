@@ -1,3 +1,50 @@
+/* Header by ひろふみ */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 73px;
+    background-color: white;
+    border-bottom: solid 1px var(--gray-light-color);
+    padding: 0 24px;
+    z-index: 10000;
+    transition: background-color .3s linear;
+    display: flex !important;
+    justify-content: space-between;
+    transition: background-color .4s linear;
+}
+
+.header-nav {
+    display: flex; /* 横並びにするためにflexを指定 */
+    gap: 70px;
+}
+
+.header-navList{
+    display: flex;
+    list-style: none;
+}
+
+.header-navLink {
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: .1em;
+    transition: color .3s linear;
+    font-size: 16px;
+    display: inline-block; /* インラインブロックにすることで中央に寄る */
+    margin: 10px;
+    text-decoration-line: none;
+    color: #18336b;
+}
+
+.header-snsList {
+    display: flex; /* 横並びにするためにflexを指定 */
+    transform:translate(-20px,12px);
+    gap: 40px;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 10px;
+}
 /* Daily by よっしー */
 .tab-header{
     list-style-type: none;
@@ -23,4 +70,18 @@
 
 .tab-body-item.show{
     display: block;
+}
+
+/*LINE登録 by 裕文*/
+.line-reg {
+    border: solid 2px #66b2ff;
+    width: 400px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #e5f2ff;
+    color: #66b2ff
 }
