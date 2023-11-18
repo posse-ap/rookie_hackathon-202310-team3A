@@ -1,9 +1,30 @@
 //mainvisual splide byひろふみ
+
+const mainvisualslide = {
+    cover: true,
+    type: 'loop',
+    perPage: 1,
+    perMove: 1,
+}
+
+const header = document.getElementById("js-header");
+const mainVisual = document.getElementById("js-mainvisual");
+
+window.addEventListener("scroll" , function(){
+    if(window.scrollY > mainVisual.clientHeight -header.clientHeight){
+        header.classList.remove("is-transparent");
+    } else {
+        header.classList.add("is-transparent");
+    }
+});
+
+
 new Splide('#js-mainvisual' , {
     cover: true,
     type: 'loop',
     perPage: 1,
     perMove: 1,
+    
 }).mount();
 
 $(document).ready(function () {
