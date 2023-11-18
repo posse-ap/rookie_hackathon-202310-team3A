@@ -96,15 +96,15 @@
 
 
 .header.is-transparent:not(.is-open) .header-logo{
-    filter: brightness(0) invert(1);
+    filter: brightness(0);
 }
 
 .header.is-transparent:not(.is-open) .header-navLink{
-    color: #FFFFFF;
+    color: black;
 }
 
 .header.is-transparent:not(.is-open) .header-snsLinktransparent{
-    filter: brightness(0) invert(1);
+    filter: brightness(0);
 }
 
 .header.is-transparent:not(.is-open) .header-line{
