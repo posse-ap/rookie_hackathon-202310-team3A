@@ -131,10 +131,12 @@
 }
 
 .mainvisual-lead {
+    padding: 20px;
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%,-50%);
+ background-color:rgba(102,178,255,0.2);
 }
 
 .mainvisual-leadMain {
