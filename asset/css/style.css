@@ -201,6 +201,20 @@
     height: 578px;
     object-fit: cover;
 }
+
+/*special by さくら*/
+
+.special_head{
+    margin: 20px;
+}
+.special_title{
+    font-size: 50px;
+    font: border;
+}
+.special_img{
+    width: 30%;
+}
+
 /*LINE登録 by 裕文*/
 .line-reg-leadbox {
     padding-top: 40px;
