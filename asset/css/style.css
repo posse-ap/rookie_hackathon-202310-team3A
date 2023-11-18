@@ -232,7 +232,7 @@
 /* Activity by なつき */
 .Activity{
     margin: 200px 250px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .title{
     text-decoration: rgb(0, 208, 255) underline 5px;
@@ -276,32 +276,33 @@
 }
 .is-scrollIn {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(0, -10%);
     transition-duration: 3s;
 }
 
 .image.is-scrollIn {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(0, -30%);
 }
 
 .act-explain.is-scrollIn {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(0, -30%);
 }
 
 .act-outline.is-scrollIn {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(0, -30%);
 }
 
 .act-sentence.is-scrollIn {
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(0, -30%);
 }
 
 
 .real-voice-section{
+    padding-top: 120px;
     height: 740px;
     background-color: rgb(227, 244, 255);
 }
@@ -319,11 +320,34 @@
     width: 500px;
     height: 500px;
     object-fit: cover;
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity,transform;
 }
-.real-explain{
-    padding-top: 100px;
+.person{
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity,transform;
 }
 
+.real-explain{
+    padding-top: 100px;
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity,transform;
+}
+.real-voice-img.is-scrollIn{
+    opacity: 1;
+    transform: translate(0, -30%);
+}
+.real-explain.is-scrollIn{
+    opacity: 1;
+    transform: translate(0,-30%);
+}
+.person.is-scrollIn{
+    opacity: 1;
+    transform: translate(0, -90%);
+}
 /*video by さくら*/
 .video_section{
     margin: 30px;
