@@ -613,6 +613,43 @@ span{
     padding: 3%;
 }
 
+/*お悩み相談*/
+.form{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.form_title{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.content{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#questionForm{
+    margin-bottom: 20px;
+}
+#questionList{
+    list-style: none;
+    padding: 0;
+}
+.question-content{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.content-answer{
+    color: #888;
+    margin-top: 5px;
+}
+/*ここまで*/
+
+
 /*LINE登録 by 裕文*/
 .line-reg-leadbox {
     padding-top: 40px;
