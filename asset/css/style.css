@@ -106,7 +106,9 @@
 
 
 /* Activity by なつき */
-.Activity{}
+.Activity{
+    margin: 0 250px;
+}
 .title{
     font-weight: bold;
     text-align: center;
@@ -121,15 +123,27 @@
     display: flex;
     flex-direction: row-reverse;
 }
-.image{}
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
 .act-explain{
     display: flex;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 70px;
 }
-.act-outline{}
+.act-outline{
+    font-weight: bold;
+}
 .act-sentense{}
-.real-voice{}
+.real-voice-section{
+    background-color: chocolate;
+    
+}
+.real-voice{
+
+    display: flex;}
 
 /* Daily by よっしー */
 .daily-title{
