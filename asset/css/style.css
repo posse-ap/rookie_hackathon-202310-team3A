@@ -367,7 +367,7 @@
 .real-voice-section{
     padding-top: 120px;
     height: 740px;
-    background-color: rgb(227, 244, 255);
+    background-color:rgb(227, 244, 255);
 }
 .real-voice{
     padding-top: 80px;
@@ -394,7 +394,12 @@
 }
 
 .real-explain{
+    overflow: hidden;
+    border-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #f0f5ff;
     padding-top: 100px;
+    margin-top: 20px;
     opacity: 0;
     transition-duration: 3s;
     transition-property: opacity,transform;
@@ -410,64 +415,57 @@
 	box-sizing: border-box;
 }
 .real-explain {
-	width: auto;
-	margin: 2em auto;
+	position: relative;
 }
 .real-explain label {
-	font-weight: bold;
-	position: relative;
-	display: block;
-	width: 80%;
-	margin: auto;
-	padding: 0.3em 1em;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	width: 100%;
+	height: 140px; /* グラデーションの高さ */
 	cursor: pointer;
-	transition: all 0.3s;
 	text-align: center;
-	color: #da3c41;
-	border: 2px solid #da3c41;
-	border-radius: 3px;
+	/* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
+	background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, rgba(250, 252, 252, 0.95) 90%);
 }
-.real-explain label:hover {
-	transition: all 0.3s;
+.real-explain input:checked + label {
+	background: inherit; /* 開いた時にグラデーションを消す */
+}
+.real-explain label:after {
+	line-height: 2.5rem;
+	position: absolute;
+	z-index: 2;
+	bottom: 20px;
+	left: 50%;
+	width: 16rem;
+	font-family: FontAwesome;
+	content: '\f13a'' 続きをよむ';
+	transform: translate(-50%, 0);
+	letter-spacing: 0.05em;
 	color: #ffffff;
-	background: #da3c41;
-}
-.real-explain label::after {
-	font-family: 'FontAwesome';
-	content: ' \f067';
-	color: #da3c41;
-}
-.real-explain label:hover::after {
-	color: #ffffff;
-}
-.real-explain input:checked ~ label::after {
-	font-family: 'FontAwesome';
-	content: ' \f068';
-	color: #da3c41;
-}
-.real-explain input:checked ~ label:hover::after {
-	color: #ffffff;
+	border-radius: 20px;
+	background-color: rgba(27, 37, 56, 1);
 }
 .real-explain input {
 	display: none;
 }
 .real-explain .cp_container {
-	position: relative;
-	z-index: 10;
 	overflow: hidden;
-	height: 0;
-	margin-top: -1px;
-	transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
-	background: rgba(255, 255, 255, 0.5);
+	height: 200px; /* 開く前に見えている部分の高さ */
+	transition: all 0.5s;
 }
-.real-explain input:checked ~ div {
-	transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+.real-explain input:checked + label {
+	 display: none ; /*閉じるボタンを消す場合解放 */
 }
-/* 続きを読むを押すと表示されるテキストの高さ */
-.real-explain input:checked ~ div.cp_container {
-	height: 300px;
+.real-explain input:checked + label:after {
+	font-family: FontAwesome;
+	content: '\f139'' 閉じる';
 }
-
+.real-explain input:checked ~ .cp_container {
+	height: auto;
+	padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
+	transition: all 0.5s;
+}
 
 
 
