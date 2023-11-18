@@ -180,7 +180,7 @@
 
 /* Daily by よっしー */
 .daily-title{
-    font-size: 50px;
+    font-size: 32px;
 }
 
 .tab-header{
@@ -217,23 +217,28 @@
     display: block;
 }
 
+.tab-body-item-description{
+    text-align: left;
+}
+
 .tab-image-1{
     width: 923px;
-    height: 578px;
+    height: 450px;
     object-fit: cover;
 }
 
 .tab-image-2{
     width: 923px;
-    height: 578px;
+    height: 450px;
     object-fit: cover;
 }
 
 .tab-image-3{
     width: 923px;
-    height: 578px;
+    height: 450px;
     object-fit: cover;
 }
+
 
 /*special by さくら*/
 
