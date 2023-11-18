@@ -1,30 +1,31 @@
-// slide by さくら
+$(document).ready(function () {
+    // 
+    $('.slider').slick({
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+    });
+});
 
-$('.slider').slick({
-    autoplay: true,
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    dots: true,
-  });
+document.addEventListener('DOMContentLoaded', function () {
+    // タブの初期化
+    const tabHeader = document.querySelectorAll('.tab-header-item');
+    const tabBody = document.querySelectorAll('.tab-body-item');
 
-// Daily by よっしー
-
-const tabHeader = document.querySelectorAll('.tab-header-item');
-const tabBody = document.querySelectorAll('.tab-body-item');
-
-document.addEventListener('DOMContentLoaded', function(){
-    for(let i = 0; i < tabHeader.length; i++){
+    for (let i = 0; i < tabHeader.length; i++) {
         tabHeader[i].addEventListener('click', tabSwitch);
     }
 
-    function tabSwitch(){
-        document.querySelectorAll('.active')[0].classList.remove('active');
+    function tabSwitch() {
+        const index = Array.from(tabHeader).indexOf(this);
+
+        document.querySelector('.tab-header-item.active').classList.remove('active');
         this.classList.add('active');
-        document.querySelectorAll('.show')[0].classList.remove('show');
-        const aryTabs = Array.prototype.slice.call(tabHeader);
-        const index = aryTabs.indexOf(this);
+        document.querySelector('.tab-body-item.show').classList.remove('show');
         tabBody[index].classList.add('show');
-    };
+    }
 });
+
 
