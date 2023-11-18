@@ -19,7 +19,7 @@
 .header-nav {
     display: flex; /* 横並びにするためにflexを指定 */
     gap: 70px;
-    margin: 18px 0px;
+    margin: 12px 0px;
 }
 
 .header-navList{
@@ -50,6 +50,33 @@
 .header-snsImg {
     max-width: 40px;
     min-width: 40px;
+}
+
+.header-line {
+    border: solid 2px #66b2ff;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    padding-top: 5px;
+    background-color: #e5f2ff;
+    
+}
+
+.header-line img{
+    max-width: 36px;
+    min-width: 36px;
+    margin-left: 20px;
+}
+
+.header-lineLead{
+    text-decoration-line: none;
+}
+
+.header-line span{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #66b2ff;
+    font-weight: bold;
 }
 
 /*slide by さくら*/
@@ -156,9 +183,10 @@
 }
 /*LINE登録 by 裕文*/
 .line-reg-leadbox {
+    padding-top: 40px;
     margin-top: 50px;
     background: url(../img/LINE_ALBUM_4.0期生入学式_決勝_231118_1.jpg) center center / cover no-repeat;
-    height: 300px;
+    height: 209px;
 }
 
 .line-reg-lead{
@@ -172,7 +200,7 @@
 .line-reg {
     border: solid 2px #66b2ff;
     width: 400px;
-    height: 60px;
+    height: 78px;
     padding: 10px 10px;
     border-radius: 50px;
     margin: 0 auto;
@@ -184,7 +212,7 @@
 }
 
 .line-reg-img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     margin-bottom: 20px;
 }
