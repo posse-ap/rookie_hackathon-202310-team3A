@@ -648,14 +648,52 @@ span{
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 #questionForm{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 #questionList{
     list-style: none;
     padding: 0;
 }
+
+.question-formTitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.question-form {
+    border:solid 0.5px #66b2ff;
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: black
+}
+
+.question-form:focus{
+    border:solid 2.5px blue;
+}
+
+.question-button {
+    font-size: 25px;
+    color:#66b2ff;
+    font-weight: bold;
+    margin-left: 1em;
+    border: solid 1px #66b2ff;
+    border-radius: 4px;
+    background-color: rgb(227, 244, 255);
+    padding: 5px;
+}
+
+.question-button:hover {
+    background-color: #66b2ff;
+    color: white;
+}
 .question-content{
-    background-color: #e8f1f9;
+    background-color: rgb(227, 244, 255);
     padding: 10px;
     margin-bottom: 10px;
     border: solid 0.5px #66b2ff;
@@ -666,28 +704,36 @@ span{
     font-weight: bold;
 }
 
-.question-content {
-    background-color: #e8f1f9;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 0.5px #66b2ff;
-}
-
 .question-content textarea{
     border:solid 0.5px #66b2ff;
     border-radius: 10px;
     width: 700px;
     height: 80px;
+    padding: 5px;
     font-size: 13px;
     font-weight: 400;
+    color: black;
+    background-color: white;
+}
+
+.question-content textarea:focus{
+    border:solid 2.5px blue;
 }
 
 .question-content button{
     font-size: 20px;
     margin-left: 1em;
-    color: blue;
+    color: #66b2ff;
+    border: solid 1px #66b2ff;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
 }
 
+.question-content button:hover{
+    background-color: #66b2ff;
+    color: white;
+}
 .content-answer{
     color: #888;
     margin-top: 5px;
