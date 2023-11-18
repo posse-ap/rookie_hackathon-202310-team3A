@@ -18,8 +18,7 @@ new Splide('#js-mainvisual' , {
     perPage: 1,
     perMove: 1,
     autoplay: true,
-  interval: 2000,
-    
+    interval: 2000,
 }).mount();
 
 document.addEventListener('DOMContentLoaded', function () {

@@ -130,6 +130,33 @@
     height: 100vh;
 }
 
+.mainvisual-lead {
+    padding: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ background-color:rgba(102,178,255,0.2);
+}
+
+.mainvisual-leadMain {
+    font-size: 120px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mainvisual-leadSub {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .gradation {
+    background-image: linear-gradient(to right, #ffffff,#1475b3 50%, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: bottom;
+  }
 /*slide by さくら*/
 .title{
     text-align: center;
@@ -158,10 +185,11 @@
 
 /* Activity by なつき */
 .Activity{
-    margin: 200px  250px 100px 250px;
+    margin: 50px 250px;
+    margin-bottom: 100px;
 }
 .title{
-    text-decoration: red underline 5px;
+    text-decoration: rgb(0, 208, 255) underline 5px;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
@@ -193,6 +221,7 @@
     transition-property: opacity, transform;
 }
 .act-outline{
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -227,8 +256,8 @@
 
 
 .real-voice-section{
-    height: 800px;
-    background-color: chocolate;
+    height: 740px;
+    background-color: rgb(227, 244, 255);
 }
 .real-voice{
     padding-top: 80px;
@@ -257,6 +286,7 @@
     font-size: 40px;
     text-decoration: pink underline 5px;
     text-align: center;
+    font-weight: bold;
 }
 .video{
     text-align: center;
@@ -300,13 +330,13 @@
 }
 
 .tab-header-item:hover{
-    background: yellow;
+    background: #FCF16E;
     transform: scale(1.1);
     border-radius: 30px;
 }
 
 .tab-header-item.active{
-    background-color: aquamarine;
+    background-color: pink;
 }
 
 .tab-body{
@@ -362,6 +392,8 @@ span{
     width: 300px;
 }
 .special_title{
+    font-weight: bold;
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: 50px;
     font: border;
 }
@@ -378,6 +410,7 @@ span{
     object-fit: cover;
 }
 .event_title{
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: 25px;
 }
 
