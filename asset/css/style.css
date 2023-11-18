@@ -108,7 +108,6 @@
 /* Activity by なつき */
 .Activity{
     margin: 250px 250px;
-    
 }
 .title{
     font-size: 75px;
@@ -117,11 +116,8 @@
 }
 .features{}
 .feature{
-    
     display: flex;
     margin-bottom: -100px;
-    
-    
 }
 .feature2{
     display: flex;
