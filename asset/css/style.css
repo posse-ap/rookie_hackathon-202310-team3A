@@ -203,7 +203,9 @@
 
 /* Daily by よっしー */
 .daily-title{
-    font-size: 32px;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .tab-header{
@@ -223,6 +225,10 @@
     padding: 10px 0;
 }
 
+.tab-header-item:hover{
+    background: yellow;
+}
+
 .tab-header-item.active{
     background-color: aquamarine;
 }
@@ -230,6 +236,7 @@
 .tab-body{
     margin-left: 250px;
     margin-right: 250px;
+    background-color: #e5f2ff;
 }
 
 .tab-body-item{
@@ -242,6 +249,14 @@
 
 .tab-body-item-description{
     text-align: left;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+}
+
+span{
+    text-decoration-line: underline;
+    font-size: larger;
 }
 
 .tab-image-1{
