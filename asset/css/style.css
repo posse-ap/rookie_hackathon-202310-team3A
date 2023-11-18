@@ -46,11 +46,24 @@
     margin-right: 40px;
     margin-top: 10px;
 }
-
 .header-snsImg {
     max-width: 40px;
     min-width: 40px;
 }
+
+/*slide by さくら*/
+.slider{
+    width: 94%;
+    margin: 0 auto;
+}
+.slider img{
+    width:100%;
+    height: auto;
+}
+.slider .slick-slide{
+    margin: 0 10px;
+}
+
 /* Daily by よっしー */
 .tab-header{
     list-style-type: none;
