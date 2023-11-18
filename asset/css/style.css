@@ -28,6 +28,7 @@
 }
 
 .header-navLink {
+    text-decoration: rgb(53, 218, 255) underline 7px;
     font-weight: bold;
     line-height: 1.8;
     letter-spacing: .1em;
@@ -35,7 +36,7 @@
     font-size: 24px;
     display: inline-block; /* インラインブロックにすることで中央に寄る */
     margin: 12px;
-    text-decoration-line: none;
+    /* text-decoration-line: none; */
     color: #18336b;
 }
 
@@ -101,6 +102,9 @@
 
 .header.is-transparent:not(.is-open) .header-navLink{
     color: black;
+    
+    /* text-decoration: rgb(53, 218, 255) underline 2px; */
+    text-decoration: none;
 }
 
 .header.is-transparent:not(.is-open) .header-snsLinktransparent{
