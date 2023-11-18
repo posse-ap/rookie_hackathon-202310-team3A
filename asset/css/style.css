@@ -443,7 +443,7 @@
 .daily-box{
     margin-left: 250px;
     margin-right: 250px;
-    border: solid 4px greenyellow;
+    border: solid 4px rgb(102, 178, 255);
     transition: box-shadow 1s ease-out, transform 1s ease-out;
 }
 
@@ -463,7 +463,7 @@
 .tab-header-item{
     text-align: center;
     flex: 0 0 33.33333%;
-    background-color: aqua;
+    background-color: white;
     padding: 10px 0;
     font-weight: bold;
     cursor: pointer;
@@ -473,15 +473,15 @@
     background: #FCF16E;
     /* transform: scale(1.1);
     border-radius: 30px; */
-    color: red;
+    color: purple;
 }
 
 .tab-header-item.active{
-    background-color: pink;
+    background-color: rgb(227, 244, 255);
 }
 
 .tab-body{
-    background-color: pink;
+    background-color: rgb(227, 244, 255);
 }
 
 .tab-body-item{
@@ -500,7 +500,7 @@
 }
 
 .tab-body-item-description:hover{
-    color: red;
+    color: #333;
 }
 
 span{
