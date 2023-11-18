@@ -52,6 +52,17 @@
 }
 
 /*slide by さくら*/
+.slide_title{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font: bold;
+}
+.picture{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
 .slider{
     width: 94%;
     margin: 0 auto;
@@ -63,6 +74,7 @@
 .slider .slick-slide{
     margin: 0 10px;
 }
+
 
 /* Daily by よっしー */
 .tab-header{
