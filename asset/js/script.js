@@ -1,12 +1,5 @@
 //mainvisual splide byひろふみ
 
-const mainvisualslide = {
-    cover: true,
-    type: 'loop',
-    perPage: 1,
-    perMove: 1,
-}
-
 const header = document.getElementById("js-header");
 const mainVisual = document.getElementById("js-mainvisual");
 
@@ -24,6 +17,8 @@ new Splide('#js-mainvisual' , {
     type: 'loop',
     perPage: 1,
     perMove: 1,
+    autoplay: true,
+  interval: 2000,
     
 }).mount();
 
