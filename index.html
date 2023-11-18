@@ -25,12 +25,12 @@
         <nav class="header-nav">
             <ul class="header-navList">
                 <li class="header-navItem">
-                    <a href="" class="header-navLink">Activity</a>
+                    <a href="#activity" class="header-navLink">Activity</a>
                 </li>
             </ul>
             <ul class="header-navList">
                 <li class="header-navItem">
-                    <a href="" class="header-navLink">Daily</a>
+                    <a href="#daily" class="header-navLink">Daily</a>
                 </li>
             </ul>
         <ul class="header-snsList">
@@ -70,7 +70,6 @@
             <p class="mainvisual-leadMain gradation"><span class="mainvisual-leadMainPOSSE">POSSE</span>SSION</p>
             <p class="mainvisual-leadSub">知と友をPOSSE③で財産に</p>
         </div>
-        <div class="scrolldown"><span>Scroll</span></div>
     </section>
     <main>
         <section> <!--POSSEとは by　さくら-->
@@ -96,7 +95,7 @@
             <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
 
         </section>
-        <section class="title">Activity</section>
+        <section class="title" id="activity">Activity</section>
         <section class="Activity"> <!--Activity by なつき-->
             
             <div class="features">
@@ -115,7 +114,7 @@
                         <img src="./asset/img/hackathon.jpg" alt="">
                     </div>
                     <div class="act-explain js-fadeIn">
-                        <p class="act-outline">ハッカソン（短期集中イベント）</p>
+                        <p class="act-outline">ハッカソン<br>（短期集中イベント）</p>
                         <p class="act-sentense">短期間でチーム開発。<br>技術の向上、チームワークの活発化を目指します。</p>
                     </div>
                 </div>
@@ -160,7 +159,7 @@
                 </div>
             </section>
         
-        <section> <!--Daily by よっしー-->
+        <section id="daily"> <!--Daily by よっしー-->
             <h2 class="title">Daily</h2>
 
             <div class="daily-box">
@@ -267,6 +266,64 @@
                     </li>
                 </ul>
         </section>
+        <section>
+            <div>
+                <h2 class="title">Q&A</h2>
+            </div>
+            <div>
+                <ul class="qa">
+                    <li>
+                        <section>
+                            <h3 class="qa-title">理系のひとが多いんじゃない？</h3>
+                            <div class="answer">
+                                <p>そんなことありません！私たち４期生は約８割が文系の学部です。<br>上のサイトを作った人も文系学部の人が作りました！</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">プログラミングは独学でもできるんじゃない？</h3>
+                            <div class="answer">
+                                <p>もちろん、独学でも勉強は可能です。<br>しかし、POSSEの理念として「早くいきたいならひとりで行け。遠くいきたいならみんなで行け」という言葉があります。<br>言葉通り、独学は自分のペースで勉強できますが、エラーの解消がわからないなどで挫折しやすいです。<br>実際に約９割のひとが挫折しています。<br>仲間とともに勉強することで挫折する機会が少なくなるため、コミュニティに所属することをおすすめしています。</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">POSSEに入るメリットは？</h3>
+                            <div class="answer">
+                                <p>
+                                    POSSEは株式会社アンチパターンが運営するコミュニティとなっています。<br>そのため、表参道のコワーキングスペースが使用できたり、POSSE内でインターンが存在するなど、ほかのサークルではできない貴重な体験ができます。
+                                </p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">もともとプログラミングをしてた人じゃないと、ついていけないんじゃ…</h3>
+                            <div class="answer">
+                                <p>カリキュラム通りに勉強すれば、初めてプログラミングを触る人でもわかる内容になっています。<br>現在所属しているメンバーも、6～7割が今まで一度もプログラミングをしたことがありませんでした。<br>それよりも重要なのは、楽しむ気持ちと熱意です。</p>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--お悩み相談-->
+        <section class="form">
+            <div class="title">
+                <h2>お悩み相談</h2>
+            </div>
+            <div class="content">
+                <form id="questionForm">
+                    <label for="question-content">お悩み：</label>
+                    <input type="text" id="question-content" required>
+                    <button type="button" onclick="submitQuestion()">相談する</button>
+                </form>
+                <ul id="questionList"></ul>
+            </div>
+        </section>
+        <!--ここまで-->
     </main>
     <section> <!--LINE登録画面　by裕文-->
         <div class="line-reg-leadbox">
@@ -278,6 +335,8 @@
     </div>
     </section>
     <footer class="footer"> <!--footer by 裕文-->
+        <p class="js-scroll scroll-top scrollview"><a href="#activity">Scroll</a></p>
+        <p class="js-pagetop scroll-top"><a href="#">Page Top</a></p>
         <p>&copy;POSSE③, All rights reserved by "Click on Titan"</p>
     </footer>
 </body>
