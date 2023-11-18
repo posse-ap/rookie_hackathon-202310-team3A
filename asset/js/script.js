@@ -1,3 +1,11 @@
+//mainvisual splide byひろふみ
+new Splide('#js-mainvisual' , {
+    cover: true,
+    type: 'loop',
+    perPage: 1,
+    perMove: 1,
+}).mount();
+
 $(document).ready(function () {
     // 
     $('.slider').slick({
