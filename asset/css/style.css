@@ -333,7 +333,7 @@ span{
 }
 .special_title{
     font-size: 50px;
-    font: bold;
+    font: border;
 }
 .special_list{
     display: flex;
