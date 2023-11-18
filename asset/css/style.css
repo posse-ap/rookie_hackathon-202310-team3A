@@ -92,7 +92,7 @@
 
 .header-line span{
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: 6px;
     color: #66b2ff;
     font-weight: bold;
 }
@@ -148,7 +148,7 @@
  left: 50%;
  transform: translate(-50%,-50%);
  background-color:rgba(102,178,255,0.2);
- font-family: 'Dancing Script', cursive;
+ font-family: 'Dancing Script','Noto Sans JP', sans-serif !important; 
 }
 
 .mainvisual-leadMain {
@@ -174,7 +174,6 @@
     background-size: 100% 10%;
     background-position: bottom;
   }
-
 
 /*スクロールリンクの形状*/
 .scroll-top {
@@ -281,7 +280,8 @@
     margin-top: 80px;
     font-size: 30px;
     font: bold;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script','Noto Sans JP', sans-serif;
+
 }
 .picture{
     margin:0;
@@ -344,9 +344,11 @@
     text-decoration: rgb(102, 178, 255) underline 2px;
     font-size: xx-large;
     font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .act-sentence{
     font-size:large;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .is-scrollIn {
     opacity: 1;
@@ -667,6 +669,8 @@ span{
     font-weight: normal;
     padding: 3% 3% 3% 50px;
     transition: all .5s ease;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
 }
 .qa-title::before,
 .qa-title::after{
@@ -701,6 +705,8 @@ span{
 
 .answer p{
     font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
 }
 /*お悩み相談*/
 .form{
@@ -828,6 +834,10 @@ span{
     margin-bottom: 70px;
     font-weight: bold;
     color: white;
+}
+
+.line-reg-link {
+    text-decoration: none;
 }
 
 .line-reg {
