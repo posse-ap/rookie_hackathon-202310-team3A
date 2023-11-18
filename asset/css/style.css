@@ -105,6 +105,10 @@
 .real-voice{}
 
 /* Daily by よっしー */
+.daily-title{
+    font-size: 50px;
+}
+
 .tab-header{
     list-style-type: none;
     display: flex;
@@ -112,7 +116,7 @@
     justify-content: space-between;
     margin-left: 250px;
     margin-right: 250px;
-    height: 80px;
+    height: 30px;
 }
 
 .tab-header-item{
@@ -142,11 +146,13 @@
 .tab-image-1{
     width: 923px;
     height: 578px;
+    object-fit: cover;
 }
 
 .tab-image-2{
     width: 923px;
     height: 578px;
+    object-fit: cover;
 }
 
 .tab-image-3{
