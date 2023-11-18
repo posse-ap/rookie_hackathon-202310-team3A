@@ -158,10 +158,11 @@
 
 /* Activity by なつき */
 .Activity{
-    margin: 200px 250px;
+    margin: 50px 250px;
+    margin-bottom: 100px;
 }
 .title{
-    text-decoration: red underline 5px;
+    text-decoration: rgb(0, 208, 255) underline 5px;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
@@ -189,6 +190,7 @@
     padding-top: 60px;
 }
 .act-outline{
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -196,8 +198,8 @@
     font-size:large;
 }
 .real-voice-section{
-    height: 800px;
-    background-color: chocolate;
+    height: 740px;
+    background-color: rgb(227, 244, 255);
 }
 .real-voice{
     padding-top: 80px;
@@ -226,6 +228,7 @@
     font-size: 40px;
     text-decoration: pink underline 5px;
     text-align: center;
+    font-weight: bold;
 }
 .video{
     text-align: center;
@@ -332,6 +335,8 @@ span{
     width: 300px;
 }
 .special_title{
+    font-weight: bold;
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: 50px;
     font: border;
 }
@@ -348,6 +353,7 @@ span{
     object-fit: cover;
 }
 .event_title{
+    text-decoration: rgb(53, 218, 255) underline 2px;
     font-size: 25px;
 }
 
