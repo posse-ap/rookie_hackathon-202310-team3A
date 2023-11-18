@@ -46,6 +46,10 @@
     margin-right: 40px;
     margin-top: 10px;
 }
+.header-snsImg {
+    max-width: 40px;
+    min-width: 40px;
+}
 
 /*slide by さくら*/
 .slider{
