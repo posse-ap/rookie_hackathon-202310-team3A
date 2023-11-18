@@ -210,11 +210,15 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity, transform;
 }
 .act-explain{
-    display: flex;
     flex-direction: column;
     padding-top: 60px;
+    transition-duration: 3s;
+    transition-property: opacity, transform;
 }
 .act-outline{
     text-decoration: rgb(53, 218, 255) underline 2px;
@@ -224,6 +228,33 @@
 .act-sentense{
     font-size:large;
 }
+.is-scrollIn {
+    opacity: 1;
+    transform: translate(0, -50%);
+    transition-duration: 3s;
+}
+
+.image.is-scrollIn {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+.act-explain.is-scrollIn {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+.act-outline.is-scrollIn {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+.act-sentence.is-scrollIn {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+
 .real-voice-section{
     height: 740px;
     background-color: rgb(227, 244, 255);
@@ -354,8 +385,7 @@ span{
 /*special by さくら*/
 .special{
     position: relative;
-    margin: 120px 0 0;
-    padding: 0 7.5vw;
+    margin: 70px 240px;
 }
 .special_head{
     margin: 20px;
