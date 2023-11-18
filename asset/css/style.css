@@ -161,6 +161,48 @@
     background-size: 100% 10%;
     background-position: bottom;
   }
+
+  .scrolldown{
+    position: absolute;
+    bottom: 1%;
+    right: 4%;
+    animation: arrowmove 1s ease-in-out infinite;
+  }
+  @keyframes arrowmove{
+    0%{bottom:1%;}
+    50%{bottom:3%}
+    100%{bottom:1%}
+  }
+  .scrolldown span{
+    position: absolute;
+	left:-20px;
+	bottom:16px;
+    color: black;
+	font-size: 10px;
+	letter-spacing: 0.05em;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+  }
+  .scrolldown::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    width: 3px;
+    height: 30px;
+    background: black;
+    transform: skewX(-20deg);
+  }
+  .scrolldown::after{
+    content:"";
+    position: absolute;
+	bottom:0;
+	right:0;
+    width:3px;
+	height: 60px;
+	background:black;
+  }
 /*slide by さくら*/
 .title{
     text-align: center;
