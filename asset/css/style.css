@@ -70,8 +70,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 250px;
+    margin-right: 250px;
     height: 80px;
 }
 
@@ -87,8 +87,8 @@
 }
 
 .tab-body{
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .tab-body-item{
@@ -99,6 +99,21 @@
     display: block;
 }
 
+.tab-image-1{
+    width: 923px;
+    height: 578px;
+}
+
+.tab-image-2{
+    width: 923px;
+    height: 578px;
+}
+
+.tab-image-3{
+    width: 923px;
+    height: 578px;
+    object-fit: cover;
+}
 /*LINE登録 by 裕文*/
 .line-reg {
     border: solid 2px #66b2ff;
