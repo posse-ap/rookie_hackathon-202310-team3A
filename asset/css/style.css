@@ -457,7 +457,7 @@
 	transition: all 0.5s;
 }
 .real-explain input:checked + label {
-	 display: none ; /*閉じるボタンを消す場合解放 */
+	 /* display: none ; 閉じるボタンを消す場合解放 */
 }
 .real-explain input:checked + label:after {
 	font-family: FontAwesome;
