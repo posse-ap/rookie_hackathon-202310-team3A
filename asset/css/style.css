@@ -161,7 +161,7 @@
     margin: 200px 250px;
 }
 .title{
-    border-bottom: 4px solid;
+    text-decoration: red underline 5px;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
