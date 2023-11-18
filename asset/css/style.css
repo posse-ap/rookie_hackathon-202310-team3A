@@ -28,7 +28,7 @@
 }
 
 .header-navLink {
-    text-decoration: rgb(53, 218, 255) underline 7px;
+    text-decoration: rgb(102, 178, 205) underline 7px;
     text-decoration-skip-ink: none;
     font-weight: bold;
     line-height: 1.8;
@@ -308,7 +308,7 @@
     margin-bottom: 80px;
 }
 .title{
-    text-decoration: rgb(0, 208, 255) underline 5px;
+    text-decoration: rgb(102, 178, 255) underline 5px;
     text-decoration-skip-ink: none;
     font-size: 75px;
     font-weight: bold;
@@ -341,7 +341,7 @@
     transition-property: opacity, transform;
 }
 .act-outline{
-    text-decoration: rgb(53, 218, 255) underline 2px;
+    text-decoration: rgb(102, 178, 255) underline 2px;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -526,7 +526,7 @@ span{
 }
 .special_title{
     font-weight: bold;
-    text-decoration: rgb(53, 218, 255) underline 2px;
+    text-decoration: rgb(102, 178, 255) underline 2px;
     font-size: 50px;
     font: border;
 }
@@ -557,8 +557,9 @@ span{
 }
 
 .event_title{
-    text-decoration: rgb(53, 218, 255) underline 2px;
+    text-decoration: rgb(102, 178, 255) underline 2px;
     font-size: 25px;
+    text-decoration-skip-ink: none;
 }
 
 
@@ -572,12 +573,12 @@ span{
 }
 .qa section{
     border:1px solid black;
-    background-color: #ccecec;
+    background-color: rgb(227, 244, 255);
 }
 .qa-title{
     position: relative;
     cursor: pointer;
-    font-size:1rem;
+    font-size:1.3rem;
     font-weight: normal;
     padding: 3% 3% 3% 50px;
     transition: all .5s ease;
@@ -613,6 +614,9 @@ span{
     padding: 3%;
 }
 
+.answer p{
+    font-size: 20px;
+}
 /*お悩み相談*/
 .form{
     margin: 0;
@@ -639,10 +643,39 @@ span{
     padding: 0;
 }
 .question-content{
-    background-color: #f9f9f9;
+    background-color: #e8f1f9;
     padding: 10px;
     margin-bottom: 10px;
+    border: solid 0.5px #66b2ff;
 }
+
+.question-content{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question-content {
+    background-color: #e8f1f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 0.5px #66b2ff;
+}
+
+.question-content textarea{
+    border:solid 0.5px #66b2ff;
+    border-radius: 10px;
+    width: 700px;
+    height: 80px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.question-content button{
+    font-size: 20px;
+    margin-left: 1em;
+    color: blue;
+}
+
 .content-answer{
     color: #888;
     margin-top: 5px;

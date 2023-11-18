@@ -155,7 +155,7 @@ function addQuestionToList(question) {
   questionItem.textContent = question;
 
   // 回答入力欄を作成
-  var answerInput = document.createElement('input');
+  var answerInput = document.createElement('textarea');
   answerInput.type = 'text';
   answerInput.className = 'answer-input';
   answerInput.placeholder = '回答を入力してください';
@@ -164,8 +164,10 @@ function addQuestionToList(question) {
   var answerButton = document.createElement('button');
   answerButton.textContent = '回答する';
   answerButton.onclick = function() {
+    if (answerInput.value.trim() !== '') {
       submitAnswer(questionItem, answerInput);
-  };
+      answerButton.style.display = "none";
+  }};
 
   // 回答要素を作成
   var answerItem = document.createElement('div');
