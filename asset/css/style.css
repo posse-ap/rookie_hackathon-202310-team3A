@@ -46,8 +46,9 @@
     list-style: none;
     margin-right: 40px;
     margin-top: -9px;
+    
 }
-.header-snsImg {
+.header-snsImg img{
     max-width: 40px;
     min-width: 40px;
 }
@@ -62,6 +63,14 @@
     
 }
 
+.header-line:hover {
+    background-color: #95c2ef;
+}
+
+.header-line:hover span{
+    color: white;
+}
+
 .header-line img{
     max-width: 36px;
     min-width: 36px;
@@ -70,11 +79,12 @@
 
 .header-lineLead{
     text-decoration-line: none;
+    display: flex;
 }
 
 .header-line span{
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 7px;
     color: #66b2ff;
     font-weight: bold;
 }
@@ -205,16 +215,16 @@
 .line-reg-leadbox {
     padding-top: 40px;
     margin-top: 50px;
-    background: url(../img/LINE_ALBUM_4.0期生入学式_決勝_231118_1.jpg) center center / cover no-repeat;
-    height: 209px;
+    background: url(../img/regisration_line_blue.png) center center / cover no-repeat;
+    height: 269px;
 }
 
 .line-reg-lead{
     margin-left: 80px;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     font-weight: bold;
-    color: #66b2ff;
+    color: white;
 }
 
 .line-reg {
@@ -231,8 +241,31 @@
     color: #66b2ff;
 }
 
+.line-reg:hover{
+    width: 500px;
+    background-color: #95c2ef;
+    height: 90px;
+    color: white;
+    font-size: 50px;
+}
+
+.line-reg:hover .line-reg-img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 35px;
+}
+
 .line-reg-img {
     width: 45px;
     height: 45px;
     margin-bottom: 20px;
+}
+
+/* footer by ひろふみ */
+.footer {
+    background-color: #e5f2ff;
+}
+
+.footer p{
+    font-size: 12px;
 }
