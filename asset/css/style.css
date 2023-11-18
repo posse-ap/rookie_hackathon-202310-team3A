@@ -202,10 +202,16 @@
 }
 
 /* Daily by よっしー */
-.daily-title{
+
+.title{
     font-size: 75px;
     font-weight: bold;
     text-align: center;
+}
+
+.daily-box{
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .tab-header{
@@ -213,8 +219,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
     height: 30px;
 }
 
@@ -223,10 +227,14 @@
     flex: 0 0 33.33333%;
     background-color: aqua;
     padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .tab-header-item:hover{
     background: yellow;
+    transform: scale(1.1);
+    border-radius: 30px;
 }
 
 .tab-header-item.active{
@@ -234,8 +242,6 @@
 }
 
 .tab-body{
-    margin-left: 250px;
-    margin-right: 250px;
     background-color: #e5f2ff;
 }
 
