@@ -77,6 +77,33 @@
 }
 
 
+
+/* Activity by なつき */
+.Activity{}
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+.features{}
+.feature{
+    display: flex;
+    
+    
+}
+.feature2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.image{}
+.act-explain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.act-outline{}
+.act-sentense{}
+.real-voice{}
+
 /* Daily by よっしー */
 .tab-header{
     list-style-type: none;
