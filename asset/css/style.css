@@ -1,0 +1,26 @@
+/* Daily by よっしー */
+.tab-header{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tab-header-item{
+    text-align: center;
+    flex: 0 0 33.33333%;
+    background-color: aqua;
+    padding: 10px 0;
+}
+
+.tab-header-item.active{
+    background-color: aquamarine;
+}
+
+.tab-body-item{
+    display: none;
+}
+
+.tab-body-item.show{
+    display: block;
+}
