@@ -3,6 +3,14 @@
 const header = document.getElementById("js-header");
 const mainVisual = document.getElementById("js-mainvisual");
 
+window.addEventListener("scroll" , function(){
+    if(window.scrollY > mainVisual.clientHeight -header.clientHeight){
+        header.classList.remove("is-transparent");
+    } else {
+        header.classList.add("is-transparent");
+    }
+});
+
 function PageTopCheck() {
   var winScrollTop = $(window).scrollTop();
   var secondTop = $("#activity").offset().top - 150; // 修正したセレクタ
