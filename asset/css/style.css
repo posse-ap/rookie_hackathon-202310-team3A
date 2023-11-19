@@ -306,7 +306,13 @@
 .Activity{
     margin: 200px 250px;
     margin-bottom: 80px;
+    padding-top: 36px;
+    margin-top: 36px;
 }
+#activity{
+    padding-top: 36px;
+}
+
 .title{
     text-decoration: rgb(102, 178, 255) underline 5px;
     text-decoration-skip-ink: none;
@@ -508,10 +514,15 @@
 }
 
 /* Daily by よっしー */
+#daily{
+    padding-top: 36px;
+    margin-top: 36px;
+}
 .title{
     font-size: 75px;
     font-weight: bold;
     text-align: center;
+    margin-top: 36px;
 }
 
 .daily-box{
