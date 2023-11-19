@@ -373,8 +373,8 @@
 }
 
 .real-voice-section{
-    padding-top: 120px;
-    height: 790px;
+    padding-top: 180px;
+    height: 850px;
     background-color:rgb(227, 244, 255);
 }
 .real-voice{
@@ -414,6 +414,7 @@
 }
 .real-sentence{
     font-size:large;
+    text-align: left;
 }
 
 /* 続きを読む*/
