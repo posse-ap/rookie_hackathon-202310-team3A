@@ -3,28 +3,356 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
-    <title>Document</title>
+    <title>POSSE③とは</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/recet.css">
+    <link rel="stylesheet" href="asset/css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/css/6-1-6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Dancing+Script:wght@700&family=M+PLUS+1p&family=Noto+Sans+JP:wght@300;700&family=Noto+Serif+JP:wght@300;400;700&family=Open+Sans&family=Plus+Jakarta+Sans:wght@400;700&family=Zen+Kaku+Gothic+Antique:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="asset/js/splide.min.js" defer></script>
+    <script src="asset/js/script.js" defer></script>
+
 </head>
 <body>
-    <header> <!--ヘッダー by 裕文  -->
-
+    <header class="header is-transparent" id="js-header"> <!--ヘッダー by 裕文  -->
+        <a href="./" class="header-logo">
+            <img src="asset/img/posse3_logo.png" alt="POSSE③">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a href="#activity" class="header-navLink">Activity</a>
+                </li>
+            </ul>
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a href="#daily" class="header-navLink">Daily</a>
+                </li>
+            </ul>
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a href="#Q-A" class="header-navLink">Q&A</a>
+                </li>
+            </ul>
+            <ul class="header-snsList">
+                <li class="header-snsItem">
+                    <a href="https://www.instagram.com/posse_programming/" class="header-snsLink header-snsLink header-snsLinktransparent" target="_blank" rel="noopener noreferrer">
+                    <div class="header-snsImg"><img src="./asset/img/icon-instagram.png" alt="Instagram"></div>
+                    </a>
+                </li>
+                <li class="header-snsItem">
+                    <div class="header-line">
+                        <a href="" class="header-snsLink header-lineLead"  rel= "noopener noreferrer">
+                            <div><img src="./asset/img/LINE_Brand_icon.png" alt="LINE登録"></div><span class="header-lineLead">←気になったら登録！</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section> <!--メインビジュアル by 裕文  -->
-
+    <section class="mainvisual splide"  id="js-mainvisual"> <!--メインビジュアル by 裕文  -->
+        <div class="splide__track">
+            <ul class="main-list splide__list">
+                <li class="main-item splide__slide main-itemLittle">
+                    <figure><img src="asset/img/LINE_ALBUM_ハッカソン　バス・開会式_231118_1.jpg" alt=""></figure>
+                </li>
+                <li class="main-item splide__slide">
+                    <figure><img src="asset/img/LINE_ALBUM_2023624 🍖BBQ🍖_231118_1.jpg" alt=""></figure>
+                </li>
+                <li class="main-item splide__slide">
+                    <figure><img src="asset/img/LINE_ALBUM_202371〜2 新人ハッカソン！_231118_3.jpg" alt=""></figure>
+                </li>
+                <li class="main-item splide__slide main-itemLittle">
+                    <figure><img src="asset/img/LINE_ALBUM_4.0期生入学式_決勝_231118_1.jpg" alt=""></figure>
+                </li>
+            </ul>
+        </div>
+        <div class="mainvisual-lead">
+            <p class="mainvisual-leadMain gradation"><span class="mainvisual-leadMainPOSSE">POSSE</span>SSION</p>
+            <p class="mainvisual-leadSub">POSSE③で知と友を財産に</p>
+        </div>
     </section>
     <main>
         <section> <!--POSSEとは by　さくら-->
-
+            <h2 class="title">What is POSSE?</h2>
+            <ul class="slider picture">
+                <li>
+                    <img src="./asset/img/slide_posse.png" alt="">
+                </li>
+                <li>
+                    <img src="./asset/img/slide_member.png" alt="">
+                </li>
+                <li>
+                    <img src="./asset/img/slide_grow.png" alt="">
+                </li>
+                <li>
+                    <img src="./asset/img/slide_play.png" alt="">
+                </li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
         </section>
-        <section> <!--Activity by なつき-->
+        <section id="activity"> <!--Activity by なつき-->
+            <h2 class="title">Activity</h2>
+            <section class="Activity">
+                <div class="features">
+                    <div class="feature">
+                        <div class="image js-fadeIn">
+                            <img src="./asset/img/learn-everyone.jpg" alt="">
+                        </div>
+                        <div class="act-explain js-fadeIn">
+                            <p class="act-outline">みんなで学ぶ</p>
+                            <p class="act-sentence">お互いに刺激しあいモチベーションを維持。<br>毎週行う課題のサポートも充実。</p>
+                        </div>
+                    </div>
+                    <div class="feature2">
+                        <div class="image js-fadeIn">
+                            <img src="./asset/img/hackathon.jpg" alt="">
+                        </div>
+                        <div class="act-explain js-fadeIn">
+                            <p class="act-outline">ハッカソン<br>（短期集中イベント）</p>
+                            <p class="act-sentence">短期間でチーム開発。<br>技術の向上、チームワークの活発化を目指します。</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image js-fadeIn">
+                            <img src="./asset/img/kouenkai.jpg" alt="">
+                        </div>
+                        <div class="act-explain js-fadeIn">
+                            <p class="act-outline">将来につなげる</p>
+                            <p class="act-sentence">社会で活躍している現役エンジニアの方から<br>講演会で有益な情報を獲得することができます。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="real-voice-section">
+                    <div class="real-voice">
+                        <div class="icon">
+                            <div class="real-voice-img js-fadeIn">
+                                <img src="./asset/img/real-voice.jpg" alt="">
+                            </div>
+                            <div class="person js-fadeIn">
+                                <p class="act-outline">元POSSE➂:<br>Tatsu.M.Dairokuさん</p>
+                            </div>
+                        </div>
+                        <div class="real-explain js-fadeIn">
+                            <p class="act-outline">POSSEに入ってみて</p>
+                            <input id="cp01" type="checkbox">
+                            <label for="cp01"></label>
+                            <div class="cp_container">
+                            <p class="real-sentence">
+                            &emsp;POSSEには様々な人がいます。<br>
+                            プログラミングの目標もそれぞれで、ここで学んだ技術を将来の仕事の道具として使いたいと見据えている人もいれば、
+                            知らない分野を学んでみたいという好奇心旺盛な人もいます。やっぱり大学の魅力は様々な人と関わる機会がたくさんあることなので、ここで活動するたびその視点があったか！と新しい学びがあります（笑）。
+                            <br>
+                            &emsp;やっぱりせっかく大学生なんだから自分にとって有意義な知識が欲しいと思いまして、将来のために学んでおいて損がないことが約束されているプログラミングを学ぶことができるこのコミュニティに入りました。
 
-        </section>
-        <section> <!--Daily by よっしー-->
+                            <br>&emsp;大学生向けプログラミング学習コミュニティ「POSSE(ポッセ)」では、プロのエンジニアが作成したカリキュラムをもとに、未経験からチーム学習・チーム開発を行い技術の習得と実践経験を積んでいきます。
 
+    そして高いITスキルを持った人材を輩出することで、社会の発展に寄与することを目指します。
+
+    また、技術力の向上と同等に、人格面の成長を重要視しています。組織に囚われない個の力が注目される現代社会において、サードプレイスとしてのコミュニティの役割は益々大きくなっていると考えられます。
+    <br>
+    &emsp;そして利害関係で結ばれないそのような場で求められるものこそ一人一人の人間性がこのコミュニティに寄与するのです。
+
+    私たちは、メンバーがPOSSEを卒業し社会に羽ばたいた後でも、互いに尊重し合い助け合えるような強いコミュニティを形成していきます。
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="video_section">
+                <h2 class="video_title">実際の制作物を見てみよう！</h2>
+                <div class="video">
+                    <video src="./asset/img/create_web.mp4" autoplay muted loop></video>
+                    <p class="video_lead">こちらは入学してから半年で制作したサイトです！</p>
+                </div>
+            </section>
         </section>
+
+        <section id="daily"> <!--Daily by よっしー-->
+            <h2 class="title">Daily</h2>
+            <div class="daily-box">
+                <ul class="tab-header">
+                    <li class="tab-header-item active">ミートアップ</li>
+                    <li class="tab-header-item">縦もく</li>
+                    <li class="tab-header-item">横もく</li>
+                </ul>
+                <div class="tab-body">
+                    <div class="tab-body-item show">
+                        <ul>
+                            <li>
+                                <p class="tab-body-item-description"><span>毎週月曜日</span>１９：３０～２２：３０に開催</p>
+                            </li>
+                            <li>
+                                <p class="tab-body-item-description"><span>全員参加</span>で、主にワークショップや講演会を行った後、情報共有をする時間になります</p>
+                            </li>
+                        </ul>
+                        <img class="tab-image-1" src="asset/img/LINE_ALBUM_POSSE③の日常_231118_1.jpg" alt="">
+                    </div>
+                    <div class="tab-body-item">
+                        <ul>
+                            <li> <p class="tab-body-item-description">週１回<span>２</span>時間、<span>先輩</span>とともにカリキュラムやミニテストを進めたり、不明点について質問できたりする時間</p></li>
+                            <li><p class="tab-body-item-description">有効活用してカリキュラムを進めています</p></li>
+                        </ul>
+                        <img class="tab-image-2" src="asset/img/LINE_ALBUM_202371~2新ハ　チームE_231118_1.jpg" alt="">
+                    </div>
+                    <div class="tab-body-item">
+                        <ul>
+                            <li><p class="tab-body-item-description">週１回<span>３</span>時間、<span>同期</span>とともにカリキュラムやミニテストを進める時間</p></li>
+                            <li><p class="tab-body-item-description">ハッカソンで一緒に制作物をつくることもあります</p></li>
+                        </ul>
+                        <img class="tab-image-3" src="asset/img/LINE_ALBUM_POSSE③の日常_231118_2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--special by さくら-->
+            <div class="special">
+                <ul class="special_list">
+                    <div class="special_head">
+                        <h2 class="special_title">Special Event</h2>
+                        <p>POSSEはプログラミングだけじゃない！</p>
+                    </div>
+                    <li class="special-list_item">
+                        <div class="zoom-box">
+                            <figure class="special_img zoom">
+                                <img  src="./asset/img/Special_atami.jpg" alt="">
+                                <figcaption>
+                                    <b class="event_title">POSSE旅行</b>
+                                    <br>みんなで熱海へ！
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="special-list_item">
+                        <div class="zoom-box">
+                            <figure class="special_img zoom">
+                                <img src="./asset/img/Special_welcomeparty.jpg" alt="">
+                                <figcaption>
+                                    <b class="event_title">Welcome Party</b>
+                                    <br>新入生を歓迎！
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="special_list">
+                    <li class="special-list_item">
+                        <div class="zoom-box">
+                            <figure class="special_img zoom">
+                                <img src="./asset/img/Special_BBQ.jpg" alt="">
+                                <figcaption>
+                                    <b class="event_title">BBQ</b>
+                                    <br>たまには外で活動！
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="special-list_item">
+                        <div class="zoom-box">
+                            <figure class="special_img zoom">
+                                <img src="./asset/img/special_Summer.jpg" alt="">
+                                <figcaption>
+                                    <b class="event_title">夏のDX</b>
+                                    <br>季節ごとに企画があるよ！
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="special-list_item">
+                        <div class="zoom-box">
+                            <figure class="special_img zoom">
+                                <img src="./asset/img/Special_Disney.jpg" alt="">
+                                <figcaption>
+                                    <b class="event_title">Disney</b>
+                                    <br>大人数でディズニーも…！
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="Q-A">
+            <div>
+                <h2 class="title">Q&A</h2>
+            </div>
+            <div>
+                <ul class="qa">
+                    <li>
+                        <section>
+                            <h3 class="qa-title">理系のひとが多いんじゃない？</h3>
+                            <div class="answer">
+                                <p>そんなことありません！私たち４期生は約８割が文系の学部です。<br>上のサイトを作った人も文系学部の人が作りました！</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">プログラミングは独学でもできるんじゃない？</h3>
+                            <div class="answer">
+                                <p>もちろん、独学でも勉強は可能です。<br>しかし、POSSEの理念として「早くいきたいならひとりで行け。遠くいきたいならみんなで行け」という言葉があります。<br>言葉通り、独学は自分のペースで勉強できますが、エラーの解消がわからないなどで挫折しやすいです。<br>実際に約９割のひとが挫折しています。<br>仲間とともに勉強することで挫折する機会が少なくなるため、コミュニティに所属することをおすすめしています。</p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">POSSEに入るメリットは？</h3>
+                            <div class="answer">
+                                <p>
+                                    POSSEは株式会社アンチパターンが運営するコミュニティとなっています。<br>そのため、表参道のコワーキングスペースが使用できたり、POSSE内でインターンが存在するなど、ほかのサークルではできない貴重な体験ができます。
+                                </p>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h3 class="qa-title">もともとプログラミングをしてた人じゃないと、ついていけないんじゃ…</h3>
+                            <div class="answer">
+                                <p>カリキュラム通りに勉強すれば、初めてプログラミングを触る人でもわかる内容になっています。<br>現在所属しているメンバーも、6～7割が今まで一度もプログラミングをしたことがありませんでした。<br>それよりも重要なのは、楽しむ気持ちと熱意です。</p>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--お悩み相談-->
+        <section class="form">
+            <div class="title">
+                <h2 class="title">お悩み相談</h2>
+            </div>
+            <div class="content">
+                <form id="questionForm">
+                    <label for="question-content" class="question-formTitle">お悩み：</label>
+                    <textarea type="text" id="question-content" class="question-form"required placeholder="質問を入力してください"></textarea>
+                    <button type="button" onclick="submitQuestion()" class="question-button">相談する</button>
+                </form>
+                <ul id="questionList"></ul>
+            </div>
+        </section>
+        <!--ここまで-->
     </main>
-    <footer> <!--footer(LINE登録) by 裕文-->
-
+    <section> <!--LINE登録画面　by裕文-->
+        <div class="line-reg-leadbox">
+            <h1 class="line-reg-lead">POSSE③の活動に興味をもったなら、ここをクリック！</h1>
+        <a href="https://line.me/R/ti/p/@651htnqp?from=page" class="line-reg-link">
+            <div class="line-reg">
+                <img src="asset/img/LINE_Brand_icon.png" alt="" class="line-reg-img">
+                LINE登録
+            </div>
+        </a>
+    </div>
+    </section>
+    <footer class="footer"> <!--footer by 裕文-->
+        <p class="js-scroll scroll-top scrollview"><a href="#activity">Scroll</a></p>
+        <p class="js-pagetop scroll-top"><a href="#">Page Top</a></p>
+        <p>&copy;POSSE③, All rights reserved by "Click on Titan"</p>
     </footer>
 </body>
 </html>
